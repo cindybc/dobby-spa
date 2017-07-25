@@ -1,4 +1,68 @@
+.container{
+	width: 85% !important;
+}
+nav{
+	padding-left: $padding-left;
+	background-color: $background-color;
+}
 
-body{
-	background-color: red;
+.second{
+	background-color: $background-color3;
+	padding: $padding;
+
+	h6{
+       font-weight: bold;
+	}
+	img{
+		border: $border;
+		@include img;
+	}
+	a{
+        @include enlace;
+	}
+}
+
+.third{
+	padding: $padding;
+
+	img{
+		border-radius: $border-radius;
+	}
+	h5{
+		color: #FF5722;
+		font-weight: bold;
+		padding: 10px;
+	}
+}
+
+.four{
+	background-color: #543f38;
+	padding: $padding;
+	color: $color2;
+
+	h5{
+		font-weight: bold;
+	}
+	hr.uno{
+		margin: 60px 0 15px 180px;;
+	}
+	hr.dos{
+		margin: 60px 180px 15px 0;
+	}
+	img{
+		border-radius: $border-radius;
+	}
+}
+footer{
+	background-color: $background-color;
+	color: $color2;
+	padding: $padding;
+
+	h6{
+		font-weight: bold;
+		font-size:20px;
+	}
+	img{
+		@include excel();
+	}
 }

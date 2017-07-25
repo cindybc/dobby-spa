@@ -1,0 +1,13 @@
+@mixin excel(){
+	border: 5px solid #FF5722;
+	background-color: $background-color3; 
+}
+
+@mixin enlace{
+	background-color: $background-color2;
+	color: #000;
+}
+@mixin img{
+	margin-top: -90px;
+    position: relative;
+}
